@@ -1,0 +1,22 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 1920px;
+    margin: 0 auto;
+    background-color: goldenrod;
+}
+.main_cont{
+    position: relative;
+    height: 947px;
+}
+.cont{
+    border: 5px solid aquamarine;
+    padding: 25px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
